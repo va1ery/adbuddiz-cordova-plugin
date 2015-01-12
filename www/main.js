@@ -32,6 +32,7 @@ description:$.trim($(v).find("description").text())
 };
 entries.push(entry);
 });
+AdBuddizShow(); 
 //now draw the list
 var s = '';
 $.each(entries, function(i, v) {
